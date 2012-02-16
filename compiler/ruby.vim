@@ -27,7 +27,7 @@ set cpo-=C
 "
 "   :make -c %<CR>
 "
-CompilerSet makeprg=ruby\ -w\ $*
+CompilerSet makeprg=ruby\ -cw\ $*
 
 CompilerSet errorformat=
     \%+E%f:%l:\ parse\ error,

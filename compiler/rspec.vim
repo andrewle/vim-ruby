@@ -16,7 +16,7 @@ endif
 let s:cpo_save = &cpo
 set cpo-=C
 
-CompilerSet makeprg=rspec\ -I\ lib:spec
+CompilerSet makeprg=rspec\ -I\ app\ -I\ spec\ -I\ lib
 
 CompilerSet errorformat=
     \%E%f:%l:\ syntax\ error\\,\ %m,
